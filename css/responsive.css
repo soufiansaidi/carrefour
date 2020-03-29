@@ -1,18 +1,14 @@
 
 @media screen and (min-width:720px){
-    .container {
-        max-width: 712px;
-    }
+    .container {max-width: 712px;}
 }
 @media screen and (min-width:992px){
-    .container {
-        max-width: 984px;
-    }
+    .container {max-width: 984px;}
+    header .logo{width: 142px;}
+    header form{width: calc(100% - 142px - 300px);}
 }
 @media screen and (min-width:1280px){
-    .container {
-        max-width: 1258px;
-    }
+    .container {max-width: 1258px;}
 }
 
 @media screen and (max-width: 991px){
