@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YeeY</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="top-header">
+                <div class="toggle-menu"><i class="fas fa-bars"></i></div>
+                <div class="logo"><a href=""><img src="img/logo.png" /></a></div>
+                <form method="POST" action="">
+                    <input type="text" placeholder="ما الذي تبحث عنه ؟" name="" id="">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="left-side">
+                    <div class="login"><a href="login.html"><i class="far fa-smile"></i> تسجيل الدخول / التسجيل</a></div>
+                    <div class="language"><a href="">English</a></div>
+                    <div class="cart"><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span>0</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-container desktop-menu">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="category.html">جميع الفئات</a></li>
+                    <li><a href="">عروض</a></li>
+                    <li>
+                        <a href="">اطعمة طازجة</a>
+                        <div class="submenu">
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="category.html">السوبر ماركت</a></li>
+                    <li><a href="category.html">المشروبات</a></li>
+                    <li><a href="category.html">ادوات تنظيف المنزلية</a></li>
+                    <li><a href="category.html">مستلزمات الاطفال</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <div class="content">
+            <div class="close-menu"><i></i></div>
+            <div class="login"><a href="login.html"><i class="far fa-smile"></i> تسجيل الدخول / التسجيل</a></div>
+            <ul>
+                <li><a href="">جميع الفئات</a></li>
+                <li><a href="">عروض</a></li>
+                <li class="has-children">
+                    <a href="">اطعمة طازجة</a>
+                    <div class="submenu">
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">السوبر ماركت</a></li>
+                <li><a href="">المشروبات</a></li>
+                <li><a href="">ادوات تنظيف المنزلية</a></li>
+                <li><a href="">مستلزمات الاطفال</a></li>
+            </ul>
+            <div class="language"><a href="">English</a></div>
+        </div>
+    </div>
+
+    <section>
+        <div class="header-space"></div>
+
+        <div class="container">
+            <div class="menu-breadcrumb mb-4">
+                <ul>
+                    <li><a href="">الصفحة الرئيسية</a></li>
+                    <li>أدوات التنظيف المنزلية</li>
+                </ul>
+            </div>
+
+            <div class="row my-5">
+                <div class="col-md-3 category-filter">
+                    <div class="wrap">
+                        <form action="" method="post">
+                            <div class="single-filter">
+                                <div class="filter-title">تسوّق حسب عروض الأصناف</div>
+                                <div class="filter-content">
+                                    <ul>
+                                        <li><a href="">عروض الأونلاين</a> (2)</li>
+                                        <li><a href="">عروض على أفضل المنتجات مبيعاً</a> (8)</li>
+                                        <li><a href="">منتجات الغسيل والعناية بالمنزل</a> (1)</li>
+                                        <li><a href="">منتجات فرشلي</a> (11)</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-filter">
+                                <div class="filter-title">تسوّق حسب حجم</div>
+                                <div class="filter-content">
+                                    <ul>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_1_1">
+                                                    <input type="checkbox" name="cat_1" id="cat_1_1">
+                                                    1 قطع (27)
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_1_2">
+                                                    <input type="checkbox" name="cat_1" id="cat_1_2">
+                                                    150 قطع (1)
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_1_3">
+                                                    <input type="checkbox" name="cat_1" id="cat_1_3">
+                                                    2 قطع (1)
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_1_4">
+                                                    <input type="checkbox" name="cat_1" id="cat_1_4">
+                                                    20 قطع (5)
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-filter">
+                                <div class="filter-title">تسوّق حسب العلامة التجارية</div>
+                                <div class="filter-content">
+                                    <ul>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_2_1">
+                                                    <input type="checkbox" name="cat_2" id="cat_2_1">
+                                                    أورينكس (11)
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_2_2">
+                                                    <input type="checkbox" name="cat_2" id="cat_2_2">
+                                                    سانيتا (12)
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_2_3">
+                                                    <input type="checkbox" name="cat_2" id="cat_2_3">
+                                                    شيرا (5)
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_2_4">
+                                                    <input type="checkbox" name="cat_2" id="cat_2_4">
+                                                    فاميلي تراين (6)
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="single-filter">
+                                <div class="filter-title">تسوّق حسب النوع الفرعي</div>
+                                <div class="filter-content">
+                                    <ul>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_3_1">
+                                                    <input type="checkbox" name="cat_3" id="cat_3_1">
+                                                    أكياس بلاستيكية (8)
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_3_2">
+                                                    <input type="checkbox" name="cat_3" id="cat_3_2">
+                                                    ورق قصدير (2)
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_3_3">
+                                                    <input type="checkbox" name="cat_3" id="cat_3_3">
+                                                    قصدير (1)
+                                                </label>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="custom-chckbox">
+                                                <label for="cat_3_4">
+                                                    <input type="checkbox" name="cat_3" id="cat_3_4">
+                                                    ورق تغليف بلاستيكي (1)
+                                                </label>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="filter-buttons p-3">
+                                <button class="btn" type="reset">مسح</button>
+                                <button class="btn" type="submit">ارسال</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-md-9 category-products">
+                    <div class="row mb-4 align-items-center">
+                        <div class="col-md-7 result-data mb-3 mb-md-0">
+                            <h4>أدوات التنظيف المنزلية</h4>
+                            <p>إظهار المنتجات 60 من 867</p>
+                        </div>
+                        <div class="col-md-5 sort-data">
+                            <label for="">فرز حسب</label>
+                            <select id="sortOptions1" name="sort">
+                                <option value="relevance">الأكثر تطابقاً</option>
+                                <option value="name-asc">اسم المنتج (تصاعدي)</option>
+                                <option value="name-desc">اسم المنتج (تنازلي)</option>
+                                <option value="price-asc">االسعر الأقل أولًا</option>
+                                <option value="price-desc">االسعر الأعلى أولًا</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="home-interest">
+                        <div class="product-slides mb-3">
+                            <div class="product-grid">
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                                <div class="item">
+                                    <div class="item-discount">9% تخفيض</div>
+                                    <div class="item-image">
+                                        <a href="product.html">
+                                            <img src="img/product.jpg" alt="" srcset="">
+                                            <h3>الاسرة سكر ناعم 10 كج</h3>
+                                        </a>
+                                    </div>
+                                    <div class="item-price">
+                                        4.50 ريال
+                                        <span class="price-discount">4.95 ريال</span>
+                                    </div>
+                                    <form action="" method="POST">
+                                        <select name="qty" id="">
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                            <option value="4">4</option>
+                                            <option value="5">5</option>
+                                            <option value="6">6</option>
+                                        </select>
+                                        <button type="submit">اضف</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <ul class="p-0">
+                            <li><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li>...</li>
+                            <li><a href="">9</a></li>
+                            <li><a href="">10</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <a id="back-top">العودة إلى الأعلى</a>
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-row mb-3 mb-md-4 mb-md-8">
+                        <img src="img/logo.png" alt="">
+                        <h4 class="mt-md-4">ابق على تواصل</h4>
+                        <ul class="social-media">
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-row">
+                        <h4>خدمة العملاء</h4>
+                        <ul>
+                            <li><a href="">الصيانة والضمان</a></li>
+                            <li><a href="">الإرجاع والاستبدال</a></li>
+                            <li><a href="">الدفع الآمن عبر الإنترنت</a></li>
+                            <li><a href="">التوصيل والتسليم</a></li>
+                            <li><a href="">الدفع عند الاستلام</a></li>
+                            <li><a href="">خدمة توصيل العربة</a></li>
+                            <li><a href="">البحث عن متجر</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-row">
+                        <h4>نبذة عنا</h4>
+                        <ul>
+                            <li><a href="">الصيانة والضمان</a></li>
+                            <li><a href="">الإرجاع والاستبدال</a></li>
+                            <li><a href="">الدفع الآمن عبر الإنترنت</a></li>
+                            <li><a href="">التوصيل والتسليم</a></li>
+                            <li><a href="">الدفع عند الاستلام</a></li>
+                            <li><a href="">خدمة توصيل العربة</a></li>
+                            <li><a href="">البحث عن متجر</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-row">
+                        <h4>نساعدك لتوفّر</h4>
+                        <ul>
+                            <li><a href="">الصيانة والضمان</a></li>
+                            <li><a href="">الإرجاع والاستبدال</a></li>
+                            <li><a href="">الدفع الآمن عبر الإنترنت</a></li>
+                            <li><a href="">التوصيل والتسليم</a></li>
+                            <li><a href="">الدفع عند الاستلام</a></li>
+                            <li><a href="">خدمة توصيل العربة</a></li>
+                            <li><a href="">البحث عن متجر</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-row">
+                        <h4>المساعدة و الدعم</h4>
+                        <ul>
+                            <li><a href="">الصيانة والضمان</a></li>
+                            <li><a href="">الإرجاع والاستبدال</a></li>
+                            <li><a href="">الدفع الآمن عبر الإنترنت</a></li>
+                            <li><a href="">التوصيل والتسليم</a></li>
+                            <li><a href="">الدفع عند الاستلام</a></li>
+                            <li><a href="">خدمة توصيل العربة</a></li>
+                            <li><a href="">البحث عن متجر</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p class="text-center">كارفور. كل الحقوق محفوظة© 2020</p>
+        </div>
+    </footer>
+
+</body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+
+</html>

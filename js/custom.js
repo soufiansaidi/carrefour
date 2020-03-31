@@ -109,6 +109,15 @@ if($('.custom-qty').length > 0){
     })
 }
 
+if($('.single-filter').length > 0){
+    $(".single-filter .filter-title").on('click', function(){
+        $(this).closest('.single-filter').find('.filter-content').toggle();
+    })
+}
+
+
+
+
 if($(window).width() < 786){
     if($('.mobile-menu ul').length > 0){
         $(".mobile-menu ul li a").click(function (event) {
