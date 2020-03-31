@@ -114,6 +114,14 @@ if($('.single-filter').length > 0){
         $(this).closest('.single-filter').find('.filter-content').toggle();
     })
 }
+if($('.close-filter').length > 0){
+    $(".open-filter").on('click', function(){
+        $('.category-filter').show();
+    })
+    $(".close-filter img").on('click', function(){
+        $('.category-filter').hide();
+    })
+}
 
 
 

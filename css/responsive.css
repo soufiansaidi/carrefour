@@ -34,6 +34,17 @@
     .page-log .form-container{padding: 30px 25px;}
     .cart-list{padding: 0 15px;}
     .contact-form .wrap{background-color: #fff;padding: 50px 25px;}
+
+    .category-filter{display: none;}
+    .close-filter{display: flex;padding: 10px;}
+    .category-filter .wrap{overflow: hidden;overflow-y: auto;height: 100vh;position: fixed;top: 0;right: 0;left: 0;bottom: 0;z-index: 9999;background-color: #fff;}
+    .category-filter .wrap form{padding: 44px 0px 80px;}
+    .category-filter .single-filter .filter-content{display: none;}
+    .filter-buttons{position: fixed;right: 0;left: 0;bottom: 0;z-index: 1;background-color: #fff;}
+    .sort-data{justify-content: space-between;}
+    .sort-data label{display: block;margin: 0 0 3px;}
+    .sort-data .form-sort, .sort-data .open-filter{width: calc(50% - 7.5px);}
+    .sort-data .form-sort select{width: 100%;}
 }
 
 @media screen and (max-width: 581px){
