@@ -29,7 +29,7 @@ blockquote p{margin: 5px 0;line-height: 35px;font-size: 16px;}
 input, a, textarea, select{box-shadow: none;outline: none;}
 a, i, button{transition: all .3s;-moz-transition: all .3s;-webkit-transition: all .3s;}
 input, textarea, select, button, a{box-shadow: none !important;outline: none !important;font-family: 'NotoKufiArabic-Regular';}
-
+a, button{cursor: pointer;}
 
 header{position: fixed;z-index: 9999;right: 0;left: 0;background: #fff;box-shadow: 0 2px 4px rgba(0,0,0,.2);border-top: 8px solid var(--primary);}
 header .top-header{display: flex;align-items: center;justify-content: space-between;padding: 15px 0;}
@@ -205,7 +205,7 @@ footer .bottom-footer p{margin: 0;}
 .page-log .form-container a.btn:hover{color: #fff;background-color: var(--lightPrimary);}
 
 .cart-calculate{overflow: hidden;}
-.cart-calculate h3, .cart-data h3{font-size: 20px;font-weight: bold;margin: 0 0 15px;}
+.cart-calculate h3, .cart-data h3{font-size: 16px;font-weight: bold;margin: 0 0 10px;}
 .cart-calculate .wrap{border: 1px solid #dfdfdf;display: flex;align-items: center;justify-content: space-between;background-color: #fff;padding: 15px;}
 .cart-calculate .wrap .price{color: var(--primary);font-size: 16px;}
 .cart-calculate table td, .cart-calculate table th{padding: 12px 0;}
@@ -292,3 +292,32 @@ footer .bottom-footer p{margin: 0;}
 .pagination ul{padding: 0;margin: 0;list-style-type: none;}
 .pagination ul li{font-size: 16px;color: #000;float: right;margin: 5px;border: 2px solid var(--lightPrimary);width: 35px;height: 35px;text-align: center;}
 .pagination ul li span, .pagination ul li a{color: #000;display: flex;align-items: center;justify-content: center;width: 31px;height: 31px;}
+
+.checkout-steps{display: flex;align-items: center;}
+.checkout-steps div{font-size: 25px;}
+.checkout-steps ul{margin: 0;padding: 0;list-style-type: none;}
+.checkout-steps ul li{display: flex;align-items: center;margin-right: 30px;color: #999;float: right;}
+.checkout-steps ul li .step{width: 30px;height: 30px;display: flex;align-items: center;justify-content: center;background-color: #999;color: #fff;font-size: 14px;border-radius: 50%;margin-left: 10px;}
+.checkout-steps ul li.done{color: var(--lightPrimary);}
+.checkout-steps ul li.done .step{background: var(--lightPrimary) url('../img/check.svg') no-repeat center;background-size: 12px;}
+.checkout-steps ul li.current{color: var(--primary);}
+.checkout-steps ul li.current .step{background-color: var(--primary);}
+
+.checkout-address.choose-address{overflow: hidden;}
+.checkout-address.choose-address form{overflow: hidden;}
+.checkout-address.choose-address form ul{padding: 0;margin: 0;list-style-type: none;}
+.checkout-address.choose-address form li{margin: 5px 0;}
+.checkout-address.choose-address form li label{font-size: 14px;}
+.checkout-address.choose-address form li input{margin-left: 3px;}
+
+.checkout-address.choose-address .add-address{background-color: #fff;}
+.checkout-address.choose-address .add-address .contact-form{display: none;}
+
+.checkout-payment{overflow: hidden;min-height: 400px;}
+.checkout-payment form{background-color: #fff;padding: 20px;border: 1px solid #dfdfdf;}
+.checkout-payment form .form-group{margin: 0;border: 1px solid var(--primary);padding: 20px;}
+.checkout-payment form .form-group label{display: flex;align-items: flex-start;margin: 0;}
+.checkout-payment form .form-group div{padding: 0 20px;width: calc(100% - 95px);color: #666;}
+.checkout-payment form .form-group div h5{font-size: 14px;margin: 0 0 8px;}
+.checkout-payment form .form-group div p{font-size: 11px;max-width: 600px;width: 80%;}
+.checkout-payment form .form-group img{width: 80px;}

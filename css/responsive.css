@@ -26,6 +26,7 @@
 }
 
 @media screen and (max-width: 769px){
+    .checkout-payment{min-height: inherit;}
     .home-slide.owl-carousel .owl-item img{height: 330px;width: auto;max-width: initial;}
     .categories .single-categories {margin-bottom: 15px;}
     footer .top-footer .footer-row {width: 50%;}

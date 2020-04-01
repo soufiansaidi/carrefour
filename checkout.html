@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YeeY</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <div class="top-header">
+                <div class="toggle-menu"><i class="fas fa-bars"></i></div>
+                <div class="logo"><a href=""><img src="img/logo.png" /></a></div>
+                <form method="POST" action="">
+                    <input type="text" placeholder="ما الذي تبحث عنه ؟" name="" id="">
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
+                <div class="left-side">
+                    <div class="login"><a href="login.html"><i class="far fa-smile"></i> تسجيل الدخول / التسجيل</a></div>
+                    <div class="language"><a href="">English</a></div>
+                    <div class="cart"><a href="cart.html"><i class="fas fa-shopping-cart"></i> <span>0</span></a></div>
+                </div>
+            </div>
+        </div>
+        <div class="menu-container desktop-menu">
+            <div class="container">
+                <ul class="menu">
+                    <li><a href="category.html">جميع الفئات</a></li>
+                    <li><a href="">عروض</a></li>
+                    <li>
+                        <a href="">اطعمة طازجة</a>
+                        <div class="submenu">
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                            <ul>
+                                <h5><a href="">مأكولات جاهزة</a></h5>
+                                <li><a href="">المقبلات وغيرها</a></li>
+                                <li><a href="">وجبات جاهزة</a></li>
+                                <li><a href="">سلطات و شوربة</a></li>
+                                <li><a href="">سوشي وساشيمي</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="category.html">السوبر ماركت</a></li>
+                    <li><a href="category.html">المشروبات</a></li>
+                    <li><a href="category.html">ادوات تنظيف المنزلية</a></li>
+                    <li><a href="category.html">مستلزمات الاطفال</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="mobile-menu">
+        <div class="content">
+            <div class="close-menu"><i></i></div>
+            <div class="login"><a href="login.html"><i class="far fa-smile"></i> تسجيل الدخول / التسجيل</a></div>
+            <ul>
+                <li><a href="">جميع الفئات</a></li>
+                <li><a href="">عروض</a></li>
+                <li class="has-children">
+                    <a href="">اطعمة طازجة</a>
+                    <div class="submenu">
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                        <ul>
+                            <h5>مأكولات جاهزة</h5>
+                            <li><a href="">المقبلات وغيرها</a></li>
+                            <li><a href="">وجبات جاهزة</a></li>
+                            <li><a href="">سلطات و شوربة</a></li>
+                            <li><a href="">سوشي وساشيمي</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="">السوبر ماركت</a></li>
+                <li><a href="">المشروبات</a></li>
+                <li><a href="">ادوات تنظيف المنزلية</a></li>
+                <li><a href="">مستلزمات الاطفال</a></li>
+            </ul>
+            <div class="language"><a href="">English</a></div>
+        </div>
+    </div>
+
+    <section>
+        <div class="header-space"></div>
+
+        <div class="container">
+            <div class="menu-breadcrumb mb-4">
+                <ul>
+                    <li><a href="">الصفحة الرئيسية</a></li>
+                    <li>معلومات التوصيل</li>
+                </ul>
+            </div>
+
+            <div class="my-4 checkout-steps">
+                <div>السداد الامن</div>
+                <ul>
+                    <li class="current"><div class="step">1</div> معلومات التوصيل</li>
+                    <li><div class="step">2</div> الدفع</li>
+                    <li><div class="step">3</div> المراجعة و التحقق</li>
+                </ul>
+            </div>
+
+            <div class="my-3">
+                <div class="row">
+                    <div class="col-lg-8 mb-4 mb-md-0 cart-data">
+                        <div class="checkout-address mb-4 choose-address">
+                            <h3>عناوينك</h3>
+                            <form action="">
+                                <ul>
+                                    <li>
+                                        <label for="address_1">
+                                            <input type="radio" name="address_selected" id="address_1"> بلاده السيء وتتحمّل قد أخذ. خيار وقدّموا بها إذ - العنوان الاول
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="address_2">
+                                            <input type="radio" name="address_selected" id="address_2"> بلاده السيء وتتحمّل قد أخذ. خيار وقدّموا بها إذ - العنوان الثاني
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="address_3">
+                                            <input type="radio" name="address_selected" id="address_3"> بلاده السيء وتتحمّل قد أخذ. خيار وقدّموا بها إذ - العنوان الثالث
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label for="address_4">
+                                            <input type="radio" name="address_selected" id="address_4"> بلاده السيء وتتحمّل قد أخذ. خيار وقدّموا بها إذ - العنوان الرابع
+                                        </label>
+                                    </li>
+                                </ul>
+                            </form>
+                            <div class="add-address mt-4">
+                                <a id="add_new_address">اضافة عنوان جديد</a>
+                                <form action="" method="post" class="checkout-add-address contact-form px-4 pb-4">
+                                    <div class="form-group mb-4 mb-md-3">
+                                        <label for="">المكان</label>
+                                        <select name="address_name" id="" class="form-control">
+                                            <option value=""></option>
+                                            <option value="المكتب">المكتب</option>
+                                            <option value="المنزل">المنزل</option>
+                                            <option value="الشقة">الشقة</option>
+                                        </select>
+                                    </div>
+    
+                                    <div class="form-group mb-4 mb-md-3">
+                                        <label for="">الدولة</label>
+                                        <select name="country" id="" disabled class="form-control">
+                                            <option value="الكويت">الكويت</option>
+                                        </select>
+                                    </div>
+    
+                                    <div class="row">
+                                        <div class="form-group col-md-4 mb-4 mb-md-3">
+                                            <label for="">المنظقة</label>
+                                            <input type="text" name="area" class="form-control" required>
+                                        </div>
+                                        <div class="form-group col-md-4 mb-4 mb-md-3">
+                                            <label for="">الجادة</label>
+                                            <input type="text" name="block" class="form-control" required>
+                                        </div>
+                                        <div class="form-group col-md-4 mb-4 mb-md-3">
+                                            <label for="">الشارع</label>
+                                            <input type="text" name="street" class="form-control" required>
+                                        </div>
+                                    </div>
+    
+                                    <div class="row">
+                                        <div class="form-group col-md-6 mb-4 mb-md-3">
+                                            <label for="">الزقاق</label>
+                                            <input type="text" name="avenue" class="form-control">
+                                        </div>
+                                        <div class="form-group col-md-6 mb-4 mb-md-3">
+                                            <label for="">الرقم</label>
+                                            <input type="text" name="house_number" class="form-control">
+                                        </div>
+                                    </div>
+    
+                                    <div class="form-group mb-4 mb-md-3">
+                                        <label for="">تعليمات اضافية</label>
+                                        <input type="text" name="addition_direction" class="form-control">
+                                    </div>
+    
+                                    <div class="row">
+                                        <div class="form-group col-md-6 mb-4 mb-md-3">
+                                            <label for="">رقم الهاتف المحمول</label>
+                                            <input type="text" name="mobile_number" class="form-control" required>
+                                        </div>
+                                        <div class="form-group col-md-6 mb-4 mb-md-3">
+                                            <label for="">رقم الهاتف الارضي</label>
+                                            <input type="text" name="landline_number" class="form-control">
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="form-group mt-5 mb-0">
+                                        <button type="submit" class="btn">اضافة</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="cart-list mb-4 mb-md-5">
+                            <div class="single-cart">
+                                <div class="cart-data-single">
+                                    <div class="cart-image">
+                                        <a href="product.html"><img src="img/product1.jpg" alt="" srcset=""></a>
+                                    </div>
+                                    <div class="cart-info">
+                                        <h4><a href="product.html">بيتي كروكر خليط كيك بشوكولاته الحليب</a></h4>
+                                        <p class="m-0">الكمية: 1</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-cart">
+                                <div class="cart-data-single">
+                                    <div class="cart-image">
+                                        <a href="product.html"><img src="img/product1.jpg" alt="" srcset=""></a>
+                                    </div>
+                                    <div class="cart-info">
+                                        <h4><a href="product.html">بيتي كروكر خليط كيك بشوكولاته الحليب</a></h4>
+                                        <p class="m-0">الكمية: 1</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="single-cart">
+                                <div class="cart-data-single">
+                                    <div class="cart-image">
+                                        <a href="product.html"><img src="img/product1.jpg" alt="" srcset=""></a>
+                                    </div>
+                                    <div class="cart-info">
+                                        <h4><a href="product.html">بيتي كروكر خليط كيك بشوكولاته الحليب</a></h4>
+                                        <p class="m-0">الكمية: 1</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 cart-calculate">
+                        <h3>ملخص الطلب</h3>
+                        <div class="wrap mb-3">
+                            <table>
+                                <tr>
+                                    <td class="border-bottom pb-3">إجمالي المشتريات</td>
+                                    <th class="border-bottom pb-3">34.80 ريال</th>
+                                </tr>
+                                <tr>
+                                    <td>رسوم التوصيل</td>
+                                    <th>15.00 ريال</th>
+                                </tr>
+                                <tr class="total">
+                                    <td>الإجمالي الكلي (شامل ضريبه القيمه المضافه):</td>
+                                    <th>49.80 ريال</th>
+                                </tr>
+                            </table>
+                        </div>
+                        <a href="payment.html" class="btn">تأكيد بيانات التوصيل</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <a id="back-top">العودة إلى الأعلى</a>
+        <div class="top-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-row mb-3 mb-md-4 mb-md-8">
+                        <img src="img/logo.png" alt="">
+                        <h4 class="mt-md-4">ابق على تواصل</h4>
+                        <ul class="social-media">
+                            <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                            <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                            <li><a href=""><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-row">
+                        <h4>خدمة العملاء</h4>
+                        <ul>
+                            <li><a href="">الصيانة والضمان</a></li>
+                            <li><a href="">الإرجاع والاستبدال</a></li>
+                            <li><a href="">الدفع الآمن عبر الإنترنت</a></li>
+                            <li><a href="">التوصيل والتسليم</a></li>
+                            <li><a href="">الدفع عند الاستلام</a></li>
+                            <li><a href="">خدمة توصيل العربة</a></li>
+                            <li><a href="">البحث عن متجر</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-row">
+                        <h4>نبذة عنا</h4>
+                        <ul>
+                            <li><a href="">الصيانة والضمان</a></li>
+                            <li><a href="">الإرجاع والاستبدال</a></li>
+                            <li><a href="">الدفع الآمن عبر الإنترنت</a></li>
+                            <li><a href="">التوصيل والتسليم</a></li>
+                            <li><a href="">الدفع عند الاستلام</a></li>
+                            <li><a href="">خدمة توصيل العربة</a></li>
+                            <li><a href="">البحث عن متجر</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-row">
+                        <h4>نساعدك لتوفّر</h4>
+                        <ul>
+                            <li><a href="">الصيانة والضمان</a></li>
+                            <li><a href="">الإرجاع والاستبدال</a></li>
+                            <li><a href="">الدفع الآمن عبر الإنترنت</a></li>
+                            <li><a href="">التوصيل والتسليم</a></li>
+                            <li><a href="">الدفع عند الاستلام</a></li>
+                            <li><a href="">خدمة توصيل العربة</a></li>
+                            <li><a href="">البحث عن متجر</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-row">
+                        <h4>المساعدة و الدعم</h4>
+                        <ul>
+                            <li><a href="">الصيانة والضمان</a></li>
+                            <li><a href="">الإرجاع والاستبدال</a></li>
+                            <li><a href="">الدفع الآمن عبر الإنترنت</a></li>
+                            <li><a href="">التوصيل والتسليم</a></li>
+                            <li><a href="">الدفع عند الاستلام</a></li>
+                            <li><a href="">خدمة توصيل العربة</a></li>
+                            <li><a href="">البحث عن متجر</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <p class="text-center">كارفور. كل الحقوق محفوظة© 2020</p>
+        </div>
+    </footer>
+
+</body>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script src="js/custom.js"></script>
+
+</html>

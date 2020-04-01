@@ -123,7 +123,11 @@ if($('.close-filter').length > 0){
     })
 }
 
-
+if($('.checkout-add-address').length > 0){
+    $("#add_new_address").on('click', function(){
+        $('.checkout-add-address').toggle();
+    })
+}
 
 
 if($(window).width() < 786){
